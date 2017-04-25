@@ -32,6 +32,7 @@ public class mouvement : MonoBehaviour
 
 		if (!freeze) 
 		{
+			//pour diriger le bateau
 			if (Input.GetKey (KeyCode.UpArrow))
 				transform.Translate (-Vector3.right * moveSpeed * Time.deltaTime);
 
@@ -63,8 +64,5 @@ public class mouvement : MonoBehaviour
 	{
 		positionReset = true;
 	}
-
-		
-
 
 }
