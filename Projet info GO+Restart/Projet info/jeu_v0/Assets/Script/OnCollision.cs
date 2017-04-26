@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class OnCollision : MonoBehaviour {
 
@@ -8,6 +9,12 @@ public class OnCollision : MonoBehaviour {
 	//Collider other; 
 	public GameObject explosion;
 	public GameObject coinCollectedAnimation;
+	public List<GameObject> objetsdisparus=new List<GameObject>();
+	static bool freeze;
+
+	void Start(){
+		freeze = false;
+	}
 
 	void OnTriggerEnter(Collider other) //lorsque le bateau rentre en collision avec un objet, cette fonction est appelée
 	{
@@ -18,8 +25,8 @@ public class OnCollision : MonoBehaviour {
 			Instantiate (coinCollectedAnimation, animationPosition, GetComponent<Transform> ().rotation);
 			GameController.AddScore (1);
 			other.gameObject.SetActive(false);
-			Destroy (other.gameObject);
-			//count = count + 1;
+			objetsdisparus.Add (other.gameObject);
+			//Destroy (other.gameObject);
 		}
 		//Si l'objet est une bombe, alors le joueur a perdu
 		if (other.gameObject.CompareTag("Mine"))
@@ -27,7 +34,8 @@ public class OnCollision : MonoBehaviour {
 			Instantiate (explosion,  animationPosition, GetComponent<Transform> ().rotation);
 			GameController.GameOver ();
 			other.gameObject.SetActive(false);
-			Destroy (other.gameObject);
+			objetsdisparus.Add (other.gameObject);
+			//Destroy (other.gameObject);
 		}
 		//Si l'objet est une horloge alors le joueur a une chance sur deux de gagner ou perdre 10 secondes
 		if (other.gameObject.CompareTag ("Clock")) 
@@ -42,8 +50,13 @@ public class OnCollision : MonoBehaviour {
 				GameController.ChangeTime (-10);
 			}
 			other.gameObject.SetActive(false);
-			Destroy (other.gameObject);
+			objetsdisparus.Add (other.gameObject);
+			//Destroy (other.gameObject);
 		}
 	}
 
+	public static void enableObjetsDisparus(bool objetsDisparusEnable)
+	{
+		freeze = !objetsDisparusEnable;
+	}
 }

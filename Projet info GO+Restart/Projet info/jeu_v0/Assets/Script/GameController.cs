@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GameController : MonoBehaviour {
 
 	public static int pointScore;
 
 	private static float targetTime;
-	private static float actualTime;
+	public static float actualTime;
 	public float gameTime = 30;
-
-	private static bool gameOver;
-
+	private static bool gameOver; 
 
 	// Use this for initialization
 	void Start () 
 	{
 		gameOver = false;
+
 
 		// Ici on fait demarrer notre compteur de temps
 		actualTime = gameTime;
@@ -47,6 +47,7 @@ public class GameController : MonoBehaviour {
 			if (Input.GetKeyDown (KeyCode.R)) 
 			{
 				gameOver = false;
+				//OnCollision.enableObjetsDisparus (true);
 				gameOverOnGui.reset ();
 				pointScore = 0;
 				ScoreOnGui.setScoreOnGui (0);
@@ -55,6 +56,7 @@ public class GameController : MonoBehaviour {
 				TimeOnGui.setTimeOnGui ((int) (actualTime / 60) , (int) (actualTime % 60));
 				mouvement.enableMouvement (true);
 				mouvement.reset ();
+
 			}
 		}
 
@@ -86,4 +88,6 @@ public class GameController : MonoBehaviour {
 		mouvement.enableMouvement (false);
 
 	}
+
+
 }

@@ -50,3 +50,33 @@ C:\Users\Camille\Documents\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Users\Camille\Documents\Projet info\jeu_v0\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Camille\Documents\Projet info\jeu_v0\obj\Debug\Assembly-CSharp.dll
 C:\Users\Camille\Documents\Projet info\jeu_v0\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\obj\Debug\Assembly-CSharp.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.HoloLens.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.VR.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.PlaymodeTestsRunner.xml
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\Temp\bin\Debug\UnityEngine.VR.xml
+C:\Users\Camille\Documents\ProjetInfoUnity\ProjetInfoUnity\Projet info GO+Restart\Projet info\jeu_v0\obj\Debug\Assembly-CSharp.pdb

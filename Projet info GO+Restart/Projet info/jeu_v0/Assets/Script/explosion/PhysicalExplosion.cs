@@ -8,7 +8,7 @@ public class PhysicalExplosion : MonoBehaviour
     void Update () 
     {
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, Radius);// create explosion
-        for(int i=0; i<hitColliders.Length; i++)
+        /*for(int i=0; i<hitColliders.Length; i++)
         {              
             if(hitColliders[i].CompareTag("CanDestroy"))// if tag CanBeRigidbody
             {
@@ -19,7 +19,7 @@ public class PhysicalExplosion : MonoBehaviour
                 hitColliders[i].GetComponent<Rigidbody>().AddExplosionForce(Force, transform.position, Radius, 0.0F); // push game object
             }
 			
-        }
+        }*/
         Destroy(gameObject,0.2f);// destroy explosion
     }
     void OnDrawGizmos()

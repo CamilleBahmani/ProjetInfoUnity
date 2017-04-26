@@ -6,12 +6,11 @@ using System.Linq;
 public class MenuPause : MonoBehaviour
 {
 	private bool isPaused = false; //Permet de savoir si le jeu est en pause ou pas
-	// Use this for initialization
+
 	void Start () {
 		
 	}
-
-	// Update is called once per frame
+		
 	void Update ()
 	{
 		if (Input.GetKeyDown (KeyCode.Escape)) 

@@ -5,15 +5,16 @@ using UnityEngine.UI;
 
 public class TimeOnGui : MonoBehaviour {
 
-	static public Text timeGuiText;
+
+	public static Text timeText;
 	// Use this for initialization
 	void Start () 
 	{
-		timeGuiText = GetComponent<Text>();
+		timeText = GetComponent<Text>();
 	}
 
 	public static void setTimeOnGui(int minutes, int secondes)
 	{
-		timeGuiText.text = "Remaining Time : " + minutes +" : "+ secondes;
+		timeText.text = "Remaining Time : " + minutes +" : "+ secondes;
 	}
 }
